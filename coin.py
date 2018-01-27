@@ -11,4 +11,4 @@ class Coin:
         self.json = json.loads(self.response.text)
         self.price = float(self.json[0]['price_usd'])
         self.balance = float(self.total) * float(self.price)
-        self.gain = (self.price * self.total) - self.purchase_usd
+        self.profit = (self.price * self.total) - self.purchase_usd
