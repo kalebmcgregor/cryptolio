@@ -2,7 +2,7 @@
 Instead of using an application on my phone or signing into websites I thought it would be easier to access high level stats of my crypto portfolio by using the coinmarketcap api on the command line. 
 
 ## Getting Started
-You will want to make sure that you have a wallet.yml file in the same directory as the tool. We use a list of coins dictionaries to hold the attributes for each coin.
+You will want to make sure that you have a wallet.yml file in the same directory as the tool. We use a list of coin dictionaries to hold the attributes for each coin.
 ```
 # example wallet.yml
 ---
