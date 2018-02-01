@@ -1,7 +1,8 @@
-import yaml
 import argparse
 
-from coin import Coin
+import yaml
+
+from cryptolio.coin import Coin
 
 
 def roi(gain, cost):

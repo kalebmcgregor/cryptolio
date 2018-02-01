@@ -9,6 +9,7 @@ class Coin:
         self.purchase_usd = float(purchase_usd)
         self.response = requests.get('https://api.coinmarketcap.com/v1/ticker/%s' % self.id)
         self.json = json.loads(self.response.text)
+        print(json)
         self.price = float(self.json[0]['price_usd'])
         self.balance = float(self.total) * float(self.price)
         self.profit = (self.price * self.total) - self.purchase_usd
