@@ -1,0 +1,2 @@
+pyyaml==3.x
+requests==2.18.x
