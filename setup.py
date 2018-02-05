@@ -2,7 +2,7 @@ from distutils.core import setup
 
 
 install_requires = [
-    'pyyaml==3.x',
+    'pyyaml==3.12',
     'requests==2.18.x'
 ]
 
