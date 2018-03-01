@@ -7,6 +7,7 @@ Instead of using an application on my phone or signing into websites I thought i
 git clone git@github.com:kalebmcgregor/cryptolio.git
 cd cryptolio
 pip3 install -r requirements.txt
+```
 
 ## Getting Started
 You will want to make sure that you have a wallet.yml file in the same directory as the tool. We use a list of coin dictionaries to hold the attributes for each coin.
