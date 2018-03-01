@@ -3,7 +3,7 @@ import argparse
 
 import yaml
 
-from cryptolio.coin import Coin
+from coin import Coin
 
 
 def roi(gain, cost):
